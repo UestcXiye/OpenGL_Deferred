@@ -1,0 +1,60 @@
+﻿生成启动时间为 2023/5/24 14:40:25。
+     1>项目“C:\Users\81228\Documents\Visual Studio 2015\Projects\OpenGL_Deferred\OpenGL_Deferred\OpenGL_Deferred.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Camera.cpp main.cpp Mesh.cpp Model.cpp Shader.cpp Texture.cpp
+         Texture.cpp
+         Shader.cpp
+         Model.cpp
+         Mesh.cpp
+         main.cpp
+     1>c:\program files (x86)\microsoft visual studio 14.0\vc\include\gl\gl.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\users\81228\documents\visual studio 2015\projects\opengl_deferred\opengl_deferred\main.cpp(34): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\81228\documents\visual studio 2015\projects\opengl_deferred\opengl_deferred\main.cpp(35): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\81228\documents\visual studio 2015\projects\opengl_deferred\opengl_deferred\main.cpp(139): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\81228\documents\visual studio 2015\projects\opengl_deferred\opengl_deferred\main.cpp(140): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\81228\documents\visual studio 2015\projects\opengl_deferred\opengl_deferred\main.cpp(141): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\81228\documents\visual studio 2015\projects\opengl_deferred\opengl_deferred\main.cpp(144): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\81228\documents\visual studio 2015\projects\opengl_deferred\opengl_deferred\main.cpp(145): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\81228\documents\visual studio 2015\projects\opengl_deferred\opengl_deferred\main.cpp(146): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\81228\documents\visual studio 2015\projects\opengl_deferred\opengl_deferred\main.cpp(153): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\81228\documents\visual studio 2015\projects\opengl_deferred\opengl_deferred\main.cpp(192): warning C4244: “参数”: 从“unsigned int”转换到“float”，可能丢失数据
+     1>c:\users\81228\documents\visual studio 2015\projects\opengl_deferred\opengl_deferred\main.cpp(363): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\81228\documents\visual studio 2015\projects\opengl_deferred\opengl_deferred\main.cpp(364): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\81228\documents\visual studio 2015\projects\opengl_deferred\opengl_deferred\main.cpp(368): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\81228\documents\visual studio 2015\projects\opengl_deferred\opengl_deferred\main.cpp(369): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\81228\documents\visual studio 2015\projects\opengl_deferred\opengl_deferred\main.cpp(371): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\81228\documents\visual studio 2015\projects\opengl_deferred\opengl_deferred\main.cpp(372): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\81228\documents\visual studio 2015\projects\opengl_deferred\opengl_deferred\main.cpp(379): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+         Camera.cpp
+         正在生成代码...
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:prompt glad.c
+         glad.c
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\81228\Documents\Visual Studio 2015\Projects\OpenGL_Deferred\Debug\OpenGL_Deferred.exe" /INCREMENTAL /NOLOGO glfw3.lib "assimp-vc140-mt.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\81228\Documents\Visual Studio 2015\Projects\OpenGL_Deferred\Debug\OpenGL_Deferred.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\81228\Documents\Visual Studio 2015\Projects\OpenGL_Deferred\Debug\OpenGL_Deferred.lib" /MACHINE:X86 Debug\Camera.obj
+         Debug\glad.obj
+         Debug\main.obj
+         Debug\Mesh.obj
+         Debug\Model.obj
+         Debug\Shader.obj
+         Debug\Texture.obj
+     1>glfw3.lib(context.obj) : warning LNK4099: 未找到 PDB“glfw.pdb”(使用“glfw3.lib(context.obj)”或在“C:\Users\81228\Documents\Visual Studio 2015\Projects\OpenGL_Deferred\Debug\glfw.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>glfw3.lib(init.obj) : warning LNK4099: 未找到 PDB“glfw.pdb”(使用“glfw3.lib(init.obj)”或在“C:\Users\81228\Documents\Visual Studio 2015\Projects\OpenGL_Deferred\Debug\glfw.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>glfw3.lib(input.obj) : warning LNK4099: 未找到 PDB“glfw.pdb”(使用“glfw3.lib(input.obj)”或在“C:\Users\81228\Documents\Visual Studio 2015\Projects\OpenGL_Deferred\Debug\glfw.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>glfw3.lib(monitor.obj) : warning LNK4099: 未找到 PDB“glfw.pdb”(使用“glfw3.lib(monitor.obj)”或在“C:\Users\81228\Documents\Visual Studio 2015\Projects\OpenGL_Deferred\Debug\glfw.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>glfw3.lib(vulkan.obj) : warning LNK4099: 未找到 PDB“glfw.pdb”(使用“glfw3.lib(vulkan.obj)”或在“C:\Users\81228\Documents\Visual Studio 2015\Projects\OpenGL_Deferred\Debug\glfw.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>glfw3.lib(window.obj) : warning LNK4099: 未找到 PDB“glfw.pdb”(使用“glfw3.lib(window.obj)”或在“C:\Users\81228\Documents\Visual Studio 2015\Projects\OpenGL_Deferred\Debug\glfw.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>glfw3.lib(win32_init.obj) : warning LNK4099: 未找到 PDB“glfw.pdb”(使用“glfw3.lib(win32_init.obj)”或在“C:\Users\81228\Documents\Visual Studio 2015\Projects\OpenGL_Deferred\Debug\glfw.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>glfw3.lib(win32_joystick.obj) : warning LNK4099: 未找到 PDB“glfw.pdb”(使用“glfw3.lib(win32_joystick.obj)”或在“C:\Users\81228\Documents\Visual Studio 2015\Projects\OpenGL_Deferred\Debug\glfw.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>glfw3.lib(win32_monitor.obj) : warning LNK4099: 未找到 PDB“glfw.pdb”(使用“glfw3.lib(win32_monitor.obj)”或在“C:\Users\81228\Documents\Visual Studio 2015\Projects\OpenGL_Deferred\Debug\glfw.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>glfw3.lib(win32_time.obj) : warning LNK4099: 未找到 PDB“glfw.pdb”(使用“glfw3.lib(win32_time.obj)”或在“C:\Users\81228\Documents\Visual Studio 2015\Projects\OpenGL_Deferred\Debug\glfw.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>glfw3.lib(win32_thread.obj) : warning LNK4099: 未找到 PDB“glfw.pdb”(使用“glfw3.lib(win32_thread.obj)”或在“C:\Users\81228\Documents\Visual Studio 2015\Projects\OpenGL_Deferred\Debug\glfw.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>glfw3.lib(win32_window.obj) : warning LNK4099: 未找到 PDB“glfw.pdb”(使用“glfw3.lib(win32_window.obj)”或在“C:\Users\81228\Documents\Visual Studio 2015\Projects\OpenGL_Deferred\Debug\glfw.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>glfw3.lib(wgl_context.obj) : warning LNK4099: 未找到 PDB“glfw.pdb”(使用“glfw3.lib(wgl_context.obj)”或在“C:\Users\81228\Documents\Visual Studio 2015\Projects\OpenGL_Deferred\Debug\glfw.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>glfw3.lib(egl_context.obj) : warning LNK4099: 未找到 PDB“glfw.pdb”(使用“glfw3.lib(egl_context.obj)”或在“C:\Users\81228\Documents\Visual Studio 2015\Projects\OpenGL_Deferred\Debug\glfw.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>glfw3.lib(osmesa_context.obj) : warning LNK4099: 未找到 PDB“glfw.pdb”(使用“glfw3.lib(osmesa_context.obj)”或在“C:\Users\81228\Documents\Visual Studio 2015\Projects\OpenGL_Deferred\Debug\glfw.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+         OpenGL_Deferred.vcxproj -> C:\Users\81228\Documents\Visual Studio 2015\Projects\OpenGL_Deferred\Debug\OpenGL_Deferred.exe
+     1>已完成生成项目“C:\Users\81228\Documents\Visual Studio 2015\Projects\OpenGL_Deferred\OpenGL_Deferred\OpenGL_Deferred.vcxproj”(Rebuild 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:05.50
